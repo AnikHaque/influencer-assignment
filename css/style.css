@@ -444,7 +444,14 @@ textarea:focus {
   font-size: 18px;
 }
 
-
+.bt{
+  background: var(--btn-color);
+  padding: 10px;
+  border-radius: 5%;
+}
+.trend{
+  margin-top: 40px;
+}
 /* Footer Part Start  */
 .footer {
   text-align: center;
