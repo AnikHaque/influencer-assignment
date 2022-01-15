@@ -1,5 +1,7 @@
+/* google fonts  */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@400;500;600;700&display=swap");
 
+/* root  */
 :root {
   --text-color: #3a3a3a;
   --text-gray-color: #787885;
@@ -13,7 +15,7 @@
   --lato: "Lato", sans-serif;
   --popping: "Poppins", sans-serif;
 }
-
+/* all styles  */
 * {
   padding: 0;
   margin: 0;
@@ -65,7 +67,6 @@ ul {
   border-radius: 0px;
 }
 
-
 .btn i {
   padding-left: 20px;
   opacity: 100%;
@@ -74,15 +75,12 @@ ul {
 
 .container {
   max-width: 1200px;
-  margin: auto;
-  /* margin-left: 100px; */
-  
+  margin: auto;  
 }
 
 .row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* justify-content: center; */
   grid-gap: 30px;
   margin-top: 65px;
 }
@@ -181,6 +179,7 @@ nav li:hover > .sub-menu {
   opacity: 1;
 }
 
+
 /* Hero Part Start  */
 .hero {
   min-height: 370px;
@@ -221,6 +220,8 @@ transition: 5s;
 background-color: black;
 color: white;
 }
+
+
 /* Client Logo Start  */
 
 .client-logo .container {
@@ -370,12 +371,27 @@ color: white;
 
 
 .see-more {
-  text-align: center;
-  margin-top: 65px;
+  text-align: right;
+  margin-top: 45px;
 }
 .btn-text {
   background: transparent;
   color: var(--btn-color);
+}
+
+
+/* influencer ads section  */
+.influencer-ads-title{
+  text-align: center;
+  font-size: 40px;
+}
+.influencer-video{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.iframe{
+  margin-bottom: 40px;
 }
 
 /* Contact Section Start  */

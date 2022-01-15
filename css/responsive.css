@@ -1,8 +1,7 @@
 /* Large devices == desktops, less than 1200px */
 @media (max-width: 1199.98px) {
   .container {
-    max-width: 992px;
-    
+    max-width: 992px; 
   }
   .hero-content h1 {
     font-size: 48px;
@@ -12,8 +11,7 @@
 /* Medium devices == tablets, less than 992px */
 @media only screen and (max-width: 991.98px) {
   .container {
-    max-width: 768px;
-   
+    max-width: 768px; 
   }
   nav ul {
     position: fixed;
@@ -65,6 +63,9 @@
   .main-menu.translate {
     left: 0%;
   }
+  .influencer-ads{
+    width: 100%;
+  }
 }
 
 /*  Small devices == landscape phones, less than 768px */
@@ -91,6 +92,9 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+  .influencer-ads{
+    width: 100%;
+  } 
 }
 
 /*  Extra Small devices == landscape phones, less than 575px */
@@ -120,6 +124,9 @@
   }
   .section-heading{
     font-size: 28px;
+  }
+  .influencer-ads{
+    width: 100%;
   }
 }
 
@@ -154,6 +161,9 @@
   }
   .row {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .influencer-ads{
+    width: 100%;
   }
   .contact-box {
     display: grid;
