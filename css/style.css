@@ -456,7 +456,7 @@ textarea:focus {
   font-size: 20px;
 }
 #footer p {
-  color: var(--footer-text);
+  color: var(--white);
   margin: 10px 0 29px;
   line-height: 32px;
   font-size: 14px;
